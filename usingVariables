@@ -1,0 +1,8 @@
+const name = "Kirill";
+const postsQty = 24;
+const userProfile = {
+  name: name,
+  postsQty: postsQty,
+  hasSignedAgreement: false,
+};
+//abbreviated format for recording properties
