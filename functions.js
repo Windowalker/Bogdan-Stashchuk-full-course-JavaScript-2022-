@@ -57,3 +57,14 @@ function increasePersonAge(person) {
 increasePersonAge(personOne); //personOne - объект
 console.log(personOne.age);
 // не понятно, вернуться и пересмотреть заново откуда связь person и personOne
+//Иногда имеет смысл присваивать значение по умолчанию для параметров не в объявлении ф-ии а позднем этапе.
+
+function showMessage(text) {
+  //...
+  if (text === undefined) {
+    // если параметр отсутствует
+    text = "пустое сообщение";
+  }
+  alert(text);
+}
+showMessage();
